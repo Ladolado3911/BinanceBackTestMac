@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "400BEFB7-4888-43F5-A0ED-4665F6BF0BA8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD1A0831-C4BF-4886-B61C-F56B298D3F30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/CoreDataServices/BinanceCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "addCandle(candleModel:shouldSave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDE419DF-E31C-42A7-90E6-8C9AF7AFBABF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/CoreDataServices/GenericCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5018B050-9690-4E1E-A1B1-B2E2B225E144"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testLinearPriceCombos(candles:workingIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "489441BD-EA94-48EA-AA92-98D68755BC38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testLinearPriceCombos(candles:workingIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AE07108-8F2E-4544-94DC-4C3FB3E0341D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/CoreDataServices/BinanceComboCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "addSingleCombo(candleModels:shouldSave:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E1EE82A-3749-4CCA-A67A-88FFAD59E34A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fundamentalTest(symbol:interval:startTime:endTime:timeZone:limit:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E1EE82A-3749-4CCA-A67A-88FFAD59E34A - 42a9179a1ea40a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.FundamentalTester.fundamentalTest(symbol: BinanceBackTestMac.BinanceSymbol, interval: BinanceBackTestMac.BinanceInterval, startTime: Swift.Optional&lt;Swift.Double&gt;, endTime: Swift.Optional&lt;Swift.Double&gt;, timeZone: Swift.Optional&lt;Swift.String&gt;, limit: Swift.Int, completion: (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "9E1EE82A-3749-4CCA-A67A-88FFAD59E34A - 42a9179a1ea40a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.FundamentalTester.fundamentalTest(symbol: BinanceBackTestMac.BinanceSymbol, interval: BinanceBackTestMac.BinanceInterval, startTime: Swift.Optional&lt;Swift.Double&gt;, endTime: Swift.Optional&lt;Swift.Double&gt;, timeZone: Swift.Optional&lt;Swift.String&gt;, limit: Swift.Int, completion: (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "9E1EE82A-3749-4CCA-A67A-88FFAD59E34A - c4e45461f2f2411"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;) -&gt; () in BinanceBackTestMac.FundamentalTester.fundamentalTest(symbol: BinanceBackTestMac.BinanceSymbol, interval: BinanceBackTestMac.BinanceInterval, startTime: Swift.Optional&lt;Swift.Double&gt;, endTime: Swift.Optional&lt;Swift.Double&gt;, timeZone: Swift.Optional&lt;Swift.String&gt;, limit: Swift.Int, completion: (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1FBA11D-416B-49F8-821D-C6AB7425EFC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "testLinearPriceCombos(candles:workingIndex:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1FBA11D-416B-49F8-821D-C6AB7425EFC7 - 431ea4b6bd53a1f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.FundamentalTester.getLinearPriceCombos(candles: Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;, workingIndex: Swift.Int) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1660">
+               </Location>
+               <Location
+                  uuid = "C1FBA11D-416B-49F8-821D-C6AB7425EFC7 - 431ea4b6bd53a195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.FundamentalTester.getLinearPriceCombos(candles: Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;, workingIndex: Swift.Int) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "948D39ED-AACA-4207-93C9-3A1235F66EBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "testLinearPriceCombos(candles:workingIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE4AB9CA-F241-4194-A2AB-65E98D0420D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/CoreDataServices/BinanceComboCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "decodeToArray()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE4AB9CA-F241-4194-A2AB-65E98D0420D5 - 6dcbfd7a247f7351"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.BinanceComboCandle.decodeToArray() -&gt; Swift.Optional&lt;Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;&gt;"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/CoreDataServices/BinanceComboCoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "BE4AB9CA-F241-4194-A2AB-65E98D0420D5 - 6dcbfd7a247f7351"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BinanceBackTestMac.BinanceComboCandle.decodeToArray() -&gt; Swift.Optional&lt;Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;&gt;"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/CoreDataServices/BinanceComboCoreDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5910E0B7-6F80-4257-8508-8FF827932A1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/CoreDataServices/BinanceComboCoreDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "decodeToArray()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "812CB10A-D28C-405C-87FC-8A6C0E284BA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "812CB10A-D28C-405C-87FC-8A6C0E284BA6 - af455e23775e6a2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; () in BinanceBackTestMac.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "812CB10A-D28C-405C-87FC-8A6C0E284BA6 - 830b080db6e243c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (BinanceBackTestMac.TradingStrategyResultModel) -&gt; (Swift.String, Swift.String, Swift.String) in closure #1 (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; () in BinanceBackTestMac.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3B95605-AFF8-4341-A944-8C73DDA29DA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3B95605-AFF8-4341-A944-8C73DDA29DA1 - af455e23775e69cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; () in BinanceBackTestMac.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "E3B95605-AFF8-4341-A944-8C73DDA29DA1 - a6926c3e40037ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BinanceBackTestMac.TradingStrategyResultModel, BinanceBackTestMac.TradingStrategyResultModel) -&gt; Swift.Bool in closure #1 (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; () in BinanceBackTestMac.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "E3B95605-AFF8-4341-A944-8C73DDA29DA1 - af455e23775e6a09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; () in BinanceBackTestMac.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FC15608-ADA6-4EA7-81DF-9FEA4CE02BB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BinanceBackTestMac/Testers/FundamentalTester.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fundamentalTest(symbol:interval:startTime:endTime:timeZone:limit:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3FC15608-ADA6-4EA7-81DF-9FEA4CE02BB8 - 7c872ce9b390740c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;) -&gt; () in BinanceBackTestMac.FundamentalTester.fundamentalTest(symbol: BinanceBackTestMac.BinanceSymbol, interval: BinanceBackTestMac.BinanceInterval, startTime: Swift.Optional&lt;Swift.Double&gt;, endTime: Swift.Optional&lt;Swift.Double&gt;, timeZone: Swift.Optional&lt;Swift.String&gt;, limit: Swift.Int, completion: (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "3FC15608-ADA6-4EA7-81DF-9FEA4CE02BB8 - 7c872ce9b390742d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;BinanceBackTestMac.BinanceCandleNetworkModel&gt;) -&gt; () in BinanceBackTestMac.FundamentalTester.fundamentalTest(symbol: BinanceBackTestMac.BinanceSymbol, interval: BinanceBackTestMac.BinanceInterval, startTime: Swift.Optional&lt;Swift.Double&gt;, endTime: Swift.Optional&lt;Swift.Double&gt;, timeZone: Swift.Optional&lt;Swift.String&gt;, limit: Swift.Int, completion: (Swift.Array&lt;BinanceBackTestMac.TradingStrategyResultModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BinanceBackTestMac"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ladotsivtsivadze/Desktop/BinanceBackTestMac/BinanceBackTestMac/Testers/FundamentalTester.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

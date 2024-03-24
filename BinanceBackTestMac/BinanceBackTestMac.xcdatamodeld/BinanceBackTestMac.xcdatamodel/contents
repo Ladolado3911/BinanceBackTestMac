@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23D60" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BinanceCandle" representedClassName="BinanceCandle" syncable="YES" codeGenerationType="class">
+        <attribute name="close" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="closeTime" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="high" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="low" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="open" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="openTime" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="BinanceComboCandle" representedClassName="BinanceComboCandle" syncable="YES" codeGenerationType="class">
+        <attribute name="combo" optional="YES" attributeType="Binary"/>
+    </entity>
 </model>

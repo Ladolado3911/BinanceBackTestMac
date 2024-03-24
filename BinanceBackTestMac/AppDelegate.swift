@@ -9,12 +9,15 @@ import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
     
-
+    private lazy var binanceCoreDataService = BinanceCandleCoreService()
+    private lazy var comboCoreDataService = BinanceComboCoreDataService()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        self.comboCoreDataService.deleteAllCandles()
+        self.binanceCoreDataService.deleteAllCandles()
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

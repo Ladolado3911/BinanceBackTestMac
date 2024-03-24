@@ -12,6 +12,24 @@
 		2470CE012BA9D98C000EE379 /* BinanceBackTestMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2470CDFF2BA9D98C000EE379 /* BinanceBackTestMac.xcdatamodeld */; };
 		2470CE032BA9D98D000EE379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2470CE022BA9D98D000EE379 /* Assets.xcassets */; };
 		2470CE062BA9D98D000EE379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2470CE042BA9D98D000EE379 /* Main.storyboard */; };
+		2470CE102BA9D9AB000EE379 /* BackTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE0E2BA9D9AB000EE379 /* BackTester.swift */; };
+		2470CE112BA9D9AB000EE379 /* FundamentalTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE0F2BA9D9AB000EE379 /* FundamentalTester.swift */; };
+		2470CE252BA9D9BB000EE379 /* BinanceEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE142BA9D9BB000EE379 /* BinanceEndpoints.swift */; };
+		2470CE262BA9D9BB000EE379 /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE152BA9D9BB000EE379 /* EndpointProtocol.swift */; };
+		2470CE272BA9D9BB000EE379 /* BinanceInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE172BA9D9BB000EE379 /* BinanceInterval.swift */; };
+		2470CE282BA9D9BB000EE379 /* BinanceCandleParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE182BA9D9BB000EE379 /* BinanceCandleParameters.swift */; };
+		2470CE292BA9D9BB000EE379 /* BinanceSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE192BA9D9BB000EE379 /* BinanceSymbol.swift */; };
+		2470CE2A2BA9D9BB000EE379 /* BinanceCandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE1A2BA9D9BB000EE379 /* BinanceCandle.swift */; };
+		2470CE2B2BA9D9BB000EE379 /* BinanceCandleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE1C2BA9D9BB000EE379 /* BinanceCandleService.swift */; };
+		2470CE2C2BA9D9BB000EE379 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE1D2BA9D9BB000EE379 /* NetworkService.swift */; };
+		2470CE2D2BA9D9BB000EE379 /* TradingStrategyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE202BA9D9BB000EE379 /* TradingStrategyProtocol.swift */; };
+		2470CE2E2BA9D9BB000EE379 /* FirstStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE212BA9D9BB000EE379 /* FirstStrategy.swift */; };
+		2470CE2F2BA9D9BB000EE379 /* SecondStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE222BA9D9BB000EE379 /* SecondStrategy.swift */; };
+		2470CE302BA9D9BB000EE379 /* TradingStrategyResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE242BA9D9BB000EE379 /* TradingStrategyResultModel.swift */; };
+		2470CE322BA9D9E7000EE379 /* ProgressTrackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2470CE312BA9D9E7000EE379 /* ProgressTrackable.swift */; };
+		24BF50F42BA9F480005E0A73 /* GenericCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF50F32BA9F480005E0A73 /* GenericCoreDataService.swift */; };
+		24BF50F62BA9F710005E0A73 /* BinanceCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF50F52BA9F710005E0A73 /* BinanceCoreDataService.swift */; };
+		24BF50F92BA9FC27005E0A73 /* BinanceComboCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF50F82BA9FC27005E0A73 /* BinanceComboCoreDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		2470CE022BA9D98D000EE379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2470CE052BA9D98D000EE379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2470CE072BA9D98D000EE379 /* BinanceBackTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BinanceBackTestMac.entitlements; sourceTree = "<group>"; };
+		2470CE0E2BA9D9AB000EE379 /* BackTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTester.swift; sourceTree = "<group>"; };
+		2470CE0F2BA9D9AB000EE379 /* FundamentalTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundamentalTester.swift; sourceTree = "<group>"; };
+		2470CE142BA9D9BB000EE379 /* BinanceEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceEndpoints.swift; sourceTree = "<group>"; };
+		2470CE152BA9D9BB000EE379 /* EndpointProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		2470CE172BA9D9BB000EE379 /* BinanceInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceInterval.swift; sourceTree = "<group>"; };
+		2470CE182BA9D9BB000EE379 /* BinanceCandleParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceCandleParameters.swift; sourceTree = "<group>"; };
+		2470CE192BA9D9BB000EE379 /* BinanceSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceSymbol.swift; sourceTree = "<group>"; };
+		2470CE1A2BA9D9BB000EE379 /* BinanceCandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceCandle.swift; sourceTree = "<group>"; };
+		2470CE1C2BA9D9BB000EE379 /* BinanceCandleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinanceCandleService.swift; sourceTree = "<group>"; };
+		2470CE1D2BA9D9BB000EE379 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2470CE202BA9D9BB000EE379 /* TradingStrategyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradingStrategyProtocol.swift; sourceTree = "<group>"; };
+		2470CE212BA9D9BB000EE379 /* FirstStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStrategy.swift; sourceTree = "<group>"; };
+		2470CE222BA9D9BB000EE379 /* SecondStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondStrategy.swift; sourceTree = "<group>"; };
+		2470CE242BA9D9BB000EE379 /* TradingStrategyResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradingStrategyResultModel.swift; sourceTree = "<group>"; };
+		2470CE312BA9D9E7000EE379 /* ProgressTrackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressTrackable.swift; sourceTree = "<group>"; };
+		24BF50F32BA9F480005E0A73 /* GenericCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoreDataService.swift; sourceTree = "<group>"; };
+		24BF50F52BA9F710005E0A73 /* BinanceCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceCoreDataService.swift; sourceTree = "<group>"; };
+		24BF50F82BA9FC27005E0A73 /* BinanceComboCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceComboCoreDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +92,102 @@
 			children = (
 				2470CDFB2BA9D98C000EE379 /* AppDelegate.swift */,
 				2470CDFD2BA9D98C000EE379 /* ViewController.swift */,
+				2470CE312BA9D9E7000EE379 /* ProgressTrackable.swift */,
+				24BF50F72BA9F716005E0A73 /* CoreDataServices */,
+				2470CE0D2BA9D9AB000EE379 /* Testers */,
+				2470CE122BA9D9BB000EE379 /* Network */,
+				2470CE1E2BA9D9BB000EE379 /* Strategy */,
 				2470CE022BA9D98D000EE379 /* Assets.xcassets */,
 				2470CE042BA9D98D000EE379 /* Main.storyboard */,
 				2470CE072BA9D98D000EE379 /* BinanceBackTestMac.entitlements */,
 				2470CDFF2BA9D98C000EE379 /* BinanceBackTestMac.xcdatamodeld */,
 			);
 			path = BinanceBackTestMac;
+			sourceTree = "<group>";
+		};
+		2470CE0D2BA9D9AB000EE379 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE0E2BA9D9AB000EE379 /* BackTester.swift */,
+				2470CE0F2BA9D9AB000EE379 /* FundamentalTester.swift */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
+		2470CE122BA9D9BB000EE379 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE132BA9D9BB000EE379 /* Endpoints */,
+				2470CE162BA9D9BB000EE379 /* Models */,
+				2470CE1B2BA9D9BB000EE379 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2470CE132BA9D9BB000EE379 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE142BA9D9BB000EE379 /* BinanceEndpoints.swift */,
+				2470CE152BA9D9BB000EE379 /* EndpointProtocol.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		2470CE162BA9D9BB000EE379 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE172BA9D9BB000EE379 /* BinanceInterval.swift */,
+				2470CE182BA9D9BB000EE379 /* BinanceCandleParameters.swift */,
+				2470CE192BA9D9BB000EE379 /* BinanceSymbol.swift */,
+				2470CE1A2BA9D9BB000EE379 /* BinanceCandle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2470CE1B2BA9D9BB000EE379 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE1C2BA9D9BB000EE379 /* BinanceCandleService.swift */,
+				2470CE1D2BA9D9BB000EE379 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2470CE1E2BA9D9BB000EE379 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE1F2BA9D9BB000EE379 /* TradingStrategies */,
+				2470CE232BA9D9BB000EE379 /* TradingModels */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		2470CE1F2BA9D9BB000EE379 /* TradingStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE202BA9D9BB000EE379 /* TradingStrategyProtocol.swift */,
+				2470CE212BA9D9BB000EE379 /* FirstStrategy.swift */,
+				2470CE222BA9D9BB000EE379 /* SecondStrategy.swift */,
+			);
+			path = TradingStrategies;
+			sourceTree = "<group>";
+		};
+		2470CE232BA9D9BB000EE379 /* TradingModels */ = {
+			isa = PBXGroup;
+			children = (
+				2470CE242BA9D9BB000EE379 /* TradingStrategyResultModel.swift */,
+			);
+			path = TradingModels;
+			sourceTree = "<group>";
+		};
+		24BF50F72BA9F716005E0A73 /* CoreDataServices */ = {
+			isa = PBXGroup;
+			children = (
+				24BF50F32BA9F480005E0A73 /* GenericCoreDataService.swift */,
+				24BF50F52BA9F710005E0A73 /* BinanceCoreDataService.swift */,
+				24BF50F82BA9FC27005E0A73 /* BinanceComboCoreDataService.swift */,
+			);
+			path = CoreDataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +260,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BF50F42BA9F480005E0A73 /* GenericCoreDataService.swift in Sources */,
 				2470CDFE2BA9D98C000EE379 /* ViewController.swift in Sources */,
 				2470CDFC2BA9D98C000EE379 /* AppDelegate.swift in Sources */,
+				2470CE302BA9D9BB000EE379 /* TradingStrategyResultModel.swift in Sources */,
+				2470CE112BA9D9AB000EE379 /* FundamentalTester.swift in Sources */,
+				2470CE282BA9D9BB000EE379 /* BinanceCandleParameters.swift in Sources */,
+				2470CE252BA9D9BB000EE379 /* BinanceEndpoints.swift in Sources */,
+				24BF50F62BA9F710005E0A73 /* BinanceCoreDataService.swift in Sources */,
+				2470CE2B2BA9D9BB000EE379 /* BinanceCandleService.swift in Sources */,
 				2470CE012BA9D98C000EE379 /* BinanceBackTestMac.xcdatamodeld in Sources */,
+				2470CE272BA9D9BB000EE379 /* BinanceInterval.swift in Sources */,
+				2470CE102BA9D9AB000EE379 /* BackTester.swift in Sources */,
+				2470CE2A2BA9D9BB000EE379 /* BinanceCandle.swift in Sources */,
+				2470CE292BA9D9BB000EE379 /* BinanceSymbol.swift in Sources */,
+				2470CE322BA9D9E7000EE379 /* ProgressTrackable.swift in Sources */,
+				2470CE2E2BA9D9BB000EE379 /* FirstStrategy.swift in Sources */,
+				2470CE2C2BA9D9BB000EE379 /* NetworkService.swift in Sources */,
+				2470CE2D2BA9D9BB000EE379 /* TradingStrategyProtocol.swift in Sources */,
+				2470CE2F2BA9D9BB000EE379 /* SecondStrategy.swift in Sources */,
+				2470CE262BA9D9BB000EE379 /* EndpointProtocol.swift in Sources */,
+				24BF50F92BA9FC27005E0A73 /* BinanceComboCoreDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
